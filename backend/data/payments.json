@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PAY-1001",
+    "customerId": "CUS-001",
+    "amount": 2999,
+    "currency": "INR",
+    "status": "completed",
+    "date": "2026-08-20"
+  },
+  {
+    "id": "PAY-1002",
+    "customerId": "CUS-001",
+    "amount": 2999,
+    "currency": "INR",
+    "status": "duplicate",
+    "date": "2026-08-20"
+  },
+  {
+    "id": "PAY-1003",
+    "customerId": "CUS-002",
+    "amount": 1499,
+    "currency": "INR",
+    "status": "completed",
+    "date": "2026-08-21"
+  }
+]

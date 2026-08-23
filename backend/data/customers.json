@@ -1,0 +1,44 @@
+{
+  "id": "CUS-001",
+  "name": "Rahul Sharma",
+  "email": "rahul.sharma@example.com",
+  "phone": "+91 98765 43210",
+  "plan": "Gold",
+  "risk": "high",
+
+  "tickets": [
+    {
+      "id": "TKT-7821",
+      "issue": "Account locked",
+      "status": "unresolved"
+    },
+    {
+      "id": "TKT-7812",
+      "issue": "Duplicate payment",
+      "status": "unresolved"
+    },
+    {
+      "id": "TKT-7799",
+      "issue": "Login problem",
+      "status": "unresolved"
+    }
+  ],
+
+  "payments": [
+    {
+      "id": "PAY-001",
+      "amount": 2999,
+      "status": "completed"
+    },
+    {
+      "id": "PAY-002",
+      "amount": 2999,
+      "status": "duplicate"
+    }
+  ],
+
+  "account": {
+    "status": "locked",
+    "reason": "Multiple authentication failures"
+  }
+}
